@@ -1029,6 +1029,9 @@
 				Base,
 			);
 			mainGroup = 3CC531922CC2D398E283A845 /* Source */;
+			packageReferences = (
+				7A50FF3A2BBD86C5008BC56B /* XCRemoteSwiftPackageReference "sonobus-packages" */,
+			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1466,6 +1469,17 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A50FF3A2BBD86C5008BC56B /* XCRemoteSwiftPackageReference "sonobus-packages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sonosaurus/sonobus-packages.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 74EA481348A24104E6ACE009 /* Project object */;
 }
